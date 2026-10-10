@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>A3 Transporte – Zuverlässiger Gütertransport in Schaffhausen</title>
-  <meta name="description" content="A3 Transporte aus Schaffhausen: Professioneller Gütertransport mit 7 LKWs und erfahrenen Fahrern. Pünktlich, sicher und persönlich – direkt aus der Region.">
+  <meta name="description" content="A3 Transporte aus Schaffhausen: Professioneller Gütertransport mit moderner Flotte (Mercedes Actros, Volvo FL, Renault, DAF, Iveco). Pünktlich, sicher und persönlich – direkt aus der Region.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -565,6 +565,82 @@
       opacity: 0.7;
     }
 
+    /* Job section */
+    .job-card {
+      background: white;
+      border-radius: 16px;
+      padding: 2.5rem;
+      box-shadow: 0 4px 20px rgba(0, 48, 135, 0.06);
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .job-badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .job-badge {
+      background: var(--blue-soft);
+      color: var(--blue-dark);
+      font-weight: 600;
+      padding: 0.35rem 0.9rem;
+      border-radius: 50px;
+      font-size: 0.9rem;
+    }
+
+    .job-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2.5rem;
+      margin-bottom: 2rem;
+    }
+
+    .job-grid h4 {
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: var(--blue-dark);
+      margin-bottom: 1rem;
+    }
+
+    .job-grid ul {
+      color: var(--gray);
+      font-size: 0.98rem;
+      padding-left: 1.2rem;
+      line-height: 1.75;
+    }
+
+    .job-expect {
+      background: var(--blue-soft);
+      border-radius: 12px;
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+    }
+
+    .job-expect h4 {
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: var(--blue-dark);
+      margin-bottom: 0.75rem;
+    }
+
+    .job-expect ul {
+      color: var(--gray);
+      font-size: 0.98rem;
+      padding-left: 1.2rem;
+      line-height: 1.75;
+      margin: 0;
+    }
+
+    .job-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      align-items: center;
+    }
+
     /* Responsive */
     @media (max-width: 900px) {
       .about-grid,
@@ -596,6 +672,10 @@
         padding: 1.5rem;
         box-shadow: 0 10px 30px rgba(0,0,0,0.1);
         gap: 1rem;
+      }
+
+      .job-grid {
+        grid-template-columns: 1fr;
       }
     }
 
@@ -629,6 +709,7 @@
         <a href="#ueber-uns">Über uns</a>
         <a href="#leistungen">Leistungen</a>
         <a href="#warum">Warum wir</a>
+        <a href="#stellen">Stellen</a>
         <a href="#kontakt">Kontakt</a>
         <a href="tel:+41767049117" class="btn btn-primary">Jetzt anrufen</a>
       </nav>
@@ -641,7 +722,7 @@
     <div class="hero-content">
       <div class="hero-badge">📍 Schaffhausen · Schweiz</div>
       <h1>Zuverlässiger Gütertransport – direkt aus Schaffhausen</h1>
-      <p>Mit 7 modernen LKWs und 6 erfahrenen Fahrern bringen wir Ihre Waren sicher, pünktlich und persönlich an den Bestimmungsort. Lokal verwurzelt, schweizweit unterwegs.</p>
+      <p>Mit einer modernen Flotte von 7 Fahrzeugen und 6 erfahrenen Fahrern bringen wir Ihre Waren sicher, pünktlich und persönlich an den Bestimmungsort. Lokal verwurzelt, schweizweit unterwegs.</p>
       <div class="hero-buttons">
         <a href="tel:+41767049117" class="btn btn-white">📞 076 704 91 17 anrufen</a>
         <a href="mailto:pllana71@yahoo.com" class="btn btn-outline">E-Mail schreiben</a>
@@ -649,7 +730,7 @@
       <div class="hero-stats">
         <div class="stat">
           <span class="stat-number">7</span>
-          <span class="stat-label">LKWs in der Flotte</span>
+          <span class="stat-label">Fahrzeuge in der Flotte</span>
         </div>
         <div class="stat">
           <span class="stat-number">6</span>
@@ -674,7 +755,16 @@
         <div class="about-text">
           <h3>Familie, Erfahrung und echte Zuverlässigkeit</h3>
           <p>A3 Transporte ist ein familiengeführtes Transportunternehmen mit Sitz in Schaffhausen. Wir setzen auf persönliche Betreuung, kurze Wege und absolute Verlässlichkeit – damit Ihre Güter genau dann ankommen, wenn sie sollen.</p>
-          <p>Mit einer Flotte von 7 LKWs und 6 professionellen Fahrern sind wir flexibel, schnell und immer erreichbar. Bei uns sprechen Sie direkt mit den Menschen, die Ihre Ware transportieren.</p>
+          <p>Mit einer modernen Flotte und 6 professionellen Fahrern sind wir flexibel, schnell und immer erreichbar. Bei uns sprechen Sie direkt mit den Menschen, die Ihre Ware transportieren.</p>
+          <p style="margin-top: 1.25rem; margin-bottom: 0.5rem;"><strong style="color: var(--blue-dark);">Unsere Flotte:</strong></p>
+          <ul style="color: var(--gray); font-size: 0.98rem; margin-bottom: 1.5rem; padding-left: 1.2rem; line-height: 1.7;">
+            <li>Mercedes Actros 1846 18EUP</li>
+            <li>Volvo FL 240 18EUP</li>
+            <li>Renault D10 240 18EUP</li>
+            <li>DAF LF 220 18EUP</li>
+            <li>Iveco Daily</li>
+            <li>2× Iveco Transporter mit Anhänger</li>
+          </ul>
           <div class="about-features">
             <div class="feature-item">
               <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
@@ -697,8 +787,8 @@
         <div class="about-image">
           <img src="https://images.unsplash.com/photo-1601584115197-04ecc1da5d9a?w=800&q=80" alt="LKW von A3 Transporte unterwegs">
           <div class="about-card">
-            <strong>7 LKWs · 6 Fahrer</strong><br>
-            <span style="color: var(--gray); font-size: 0.95rem;">Bereit für Ihre nächste Lieferung</span>
+            <strong>7 Fahrzeuge · 6 Fahrer</strong><br>
+            <span style="color: var(--gray); font-size: 0.95rem;">Mercedes · Volvo · Renault · DAF · Iveco</span>
           </div>
         </div>
       </div>
@@ -761,7 +851,7 @@
         <div class="why-item">
           <div class="why-number">2</div>
           <h3>Erfahrung & Flotte</h3>
-          <p>7 LKWs und 6 professionelle Fahrer – genug Kapazität, um Ihre Aufträge zuverlässig und termingerecht umzusetzen.</p>
+          <p>7 moderne Fahrzeuge (Mercedes Actros, Volvo FL, Renault, DAF, Iveco) und 6 professionelle Fahrer – genug Kapazität für zuverlässige und termingerechte Aufträge.</p>
         </div>
         <div class="why-item">
           <div class="why-number">3</div>
@@ -772,6 +862,73 @@
           <div class="why-number">4</div>
           <h3>Vertrauen & Fairness</h3>
           <p>Transparente Preise, ehrliche Beratung und der Wille, dass Sie gerne wieder mit uns arbeiten.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stellenausschreibung -->
+  <section id="stellen" class="services">
+    <div class="container">
+      <div class="section-header">
+        <h2>Stellenausschreibung</h2>
+        <p>Wir suchen Verstärkung für unser Team in Schaffhausen.</p>
+      </div>
+
+      <div class="job-card">
+        <div class="job-badges">
+          <span class="job-badge">100 % · Vollzeit</span>
+          <span class="job-badge">Schaffhausen</span>
+          <span class="job-badge">Ab sofort / nach Vereinbarung</span>
+        </div>
+
+        <h3 style="font-size: 1.5rem; font-weight: 800; color: var(--blue-dark); margin-bottom: 0.75rem;">
+          🚛 LKW-Chauffeur Kat. C/CE (m/w/d)
+        </h3>
+        <p style="color: var(--gray); font-size: 1.05rem; margin-bottom: 2rem;">
+          Für unser Transportunternehmen in Schaffhausen suchen wir einen zuverlässigen und motivierten LKW-Chauffeur für nationale Transporte innerhalb der Schweiz.
+          Du bist gerne unterwegs, arbeitest selbstständig und übernimmst gerne Verantwortung? Dann freuen wir uns, dich kennenzulernen!
+        </p>
+
+        <div class="job-grid">
+          <div>
+            <h4>Deine Aufgaben</h4>
+            <ul>
+              <li>Durchführung von Transporten innerhalb der Schweiz</li>
+              <li>Pünktliche und zuverlässige Auslieferung der Waren</li>
+              <li>Fachgerechte Ladungssicherung und sorgfältiger Umgang mit der Ware</li>
+              <li>Kontrolle und Pflege des Fahrzeugs</li>
+              <li>Einhaltung der gesetzlichen Vorschriften sowie der Lenk- und Ruhezeiten</li>
+              <li>Freundlicher Umgang mit Kunden und Geschäftspartnern</li>
+            </ul>
+          </div>
+          <div>
+            <h4>Das bringst du mit</h4>
+            <ul>
+              <li>Führerausweis Kat. C und CE</li>
+              <li>Gültiger CZV-Fähigkeitsausweis (sofern gesetzlich erforderlich)</li>
+              <li>Gültige Fahrerkarte (sofern erforderlich)</li>
+              <li>Zuverlässigkeit, Pünktlichkeit und Verantwortungsbewusstsein</li>
+              <li>Selbstständige und sorgfältige Arbeitsweise</li>
+              <li>Gute Deutschkenntnisse</li>
+              <li>Berufserfahrung von Vorteil – motivierte Neueinsteiger willkommen</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="job-expect">
+          <h4>Das erwartet dich</h4>
+          <ul>
+            <li>Eine Vollzeitstelle mit einem Pensum von 100 %</li>
+            <li>Abwechslungsreiche Tätigkeit im nationalen Transport</li>
+            <li>Vielseitiger Arbeitsalltag in der Transportbranche</li>
+            <li>Persönliches und familiäres Arbeitsumfeld</li>
+          </ul>
+        </div>
+
+        <div class="job-actions">
+          <a href="tel:+41767049117" class="btn btn-primary">📞 Jetzt bewerben – anrufen</a>
+          <a href="mailto:pllana71@yahoo.com?subject=Bewerbung%20LKW-Chauffeur%20Kat.%20C%2FCE&body=Guten%20Tag%2C%0A%0Aich%20bewerbe%20mich%20um%20die%20Stelle%20als%20LKW-Chauffeur%20Kat.%20C%2FCE.%0A%0AName%3A%20%0ATelefon%3A%20%0AFührerausweis%20C%2FCE%3A%20ja%2Fnein%0ACZV%3A%20ja%2Fnein%0ABerufserfahrung%3A%20%0A%0AMit%20freundlichen%20Gr%C3%BCssen" class="btn" style="background: white; color: var(--blue-dark); border: 2px solid var(--blue-dark);">E-Mail-Bewerbung senden</a>
         </div>
       </div>
     </div>
